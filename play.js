@@ -23,3 +23,8 @@ const setupInput = function() {
 console.log('Connecting ...');
 connect();
 setupInput();
+
+module.exports = {
+  handleUserInput,
+  setupInput
+}
